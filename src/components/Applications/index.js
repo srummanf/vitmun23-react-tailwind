@@ -6,17 +6,17 @@ function index() {
     return (
         <div>
             <Navbar />
-            <div className="container">
-                <div className="landing-wrapper">
-                    <div className="content">
-                        <h2 className="applications">Applications</h2>
+            <div className={styles.container}>
+                <div className={styles.landing_wrapper}>
+                    <div className={styles.content}>
+                        <h2 className={styles.applications}>Applications</h2>
                     </div>
                 </div>
 
-                <div className="forum-wrapper">
-                    <div className="forum">
-                        <h2 className="forum-title">Application Forum</h2>
-                        <p className="forum-desc">
+                <div className={styles.forum_wrapper}>
+                    <div className={styles.forum}>
+                        <h2 className={styles.forum_title}>Application Forum</h2>
+                        <p className={styles.forum_desc}>
                             At a Model UN conference, students work as the representatives of a
                             country, an organization, or a person and aim to solve problems
                             working with other delegates from around the world. MUN teaches skills
@@ -26,12 +26,12 @@ function index() {
                             representatives also inculcates skills of negotiation, conflict
                             resolution, and cooperation.
                         </p>
-                        <button className="forum-apply">Apply Now</button>
+                        <button className={styles.forum_apply}>Apply Now</button>
                     </div>
                 </div>
 
-                <div className="guidelines-wrapper">
-                    <div className="guidelines">
+                <div className={styles.guidelines_wrapper}>
+                    <div className={styles.guidelines}>
                         <h2>Guidelines</h2>
                         <p>
                             At a Model UN conference, students work as the representatives of a
