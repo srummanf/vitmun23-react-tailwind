@@ -14,7 +14,7 @@ function index() {
         <>
             <Navbar />
             <h1>Committees</h1>
-            <div className="general">
+            <div className={styles.general}>
                 <p>
                     The objective of the VITCMUN is to facilitate novel discussions on
                     pressing contemporary issues. Committees focus both on Indian issues
@@ -26,11 +26,11 @@ function index() {
                 </p>
                 <br />
             </div>
-            <div className="com1">
-                <div className="img1">
+            <div className={styles.com1}>
+                <div className={styles.img1}>
                     <img src={unsc} alt="unsc" />
                 </div>
-                <div className="disc1">
+                <div className={styles.disc1}>
                     <h3>United Nations Security Council</h3>
                     <p>
                         One of the United Nations' six principal organs, the United Nations
@@ -42,8 +42,8 @@ function index() {
                     </p>
                 </div>
             </div>
-            <div className="com2">
-                <div className="disc2">
+            <div className={styles.com2}>
+                <div className={styles.disc2}>
                     <h3>
                         United Nations General Assembly Disarmament and International
                         Security Committee
@@ -55,15 +55,15 @@ function index() {
                         the challenges in the international security regime.
                     </p>
                 </div>
-                <div className="img2">
+                <div className={styles.img2}>
                     <img src={ungaDisec} alt="unga discec" />
                 </div>
             </div>
-            <div className="com3">
-                <div className="img3">
+            <div className={styles.com3}>
+                <div className={styles.img3}>
                     <img src={lokSabha} alt="lok sabha" />
                 </div>
-                <div className="disc3">
+                <div className={styles.disc3}>
                     <h3>Lok Sabha</h3>
                     <p>
                         Lok Sabha - the lower house of parliament is composed of
@@ -77,8 +77,8 @@ function index() {
                     </p>
                 </div>
             </div>
-            <div className="com4">
-                <div className="disc4">
+            <div className={styles.com4}>
+                <div className={styles.disc4}>
                     <h3>Economic and Social Council</h3>
                     <p>
                         The Economic and Social Council (ECOSOC), one of the six main organs
@@ -97,16 +97,16 @@ function index() {
                         documenting and minimising the effects of COVID 19, and other global
                         challenges.
                     </p>
-                    <div className="img4">
+                    <div className={styles.img4}>
                         <img src={ecoSoc} alt="ecosoc" />
                     </div>
                 </div>
             </div>
-            <div className="com5">
-                <div className="img5">
+            <div className={styles.com5}>
+                <div className={styles.img5}>
                     <img src={ungaSochum} alt="unga sochum" />
                 </div>
-                <div className="disc5">
+                <div className={styles.disc5}>
                     <h3>
                         United Nations General Assembly Social, Humanitarian & Cultural
                         Committee
@@ -126,8 +126,8 @@ function index() {
                     </p>
                 </div>
             </div>
-            <div className="com6">
-                <div className="disc6">
+            <div className={styles.com6}>
+                <div className={styles.disc6}>
                     <h3>International Press Corps</h3>
                     <p>
                         The role of the international press at the UN is to inform the
@@ -137,16 +137,16 @@ function index() {
                         information and ideas, and for ensuring that people have access to
                         accurate and diverse sources of news and information.
                     </p>
-                    <div className="img6">
+                    <div className={styles.img6}>
                         <img src={ipc} alt="ipc" />
                     </div>
                 </div>
             </div>
-            <div className="com7">
-                <div className="img7">
+            <div className={styles.com7}>
+                <div className={styles.img7}>
                     <img src={trilateralCommission} alt="trilateral commision" />
                 </div>
-                <div className="disc7">
+                <div className={styles.disc7}>
                     <h3>
                         Trilateral Commission
                         <a href='/'>( Flagship Committee of VITCMUN )</a>

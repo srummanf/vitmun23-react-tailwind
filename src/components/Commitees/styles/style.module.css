@@ -80,7 +80,7 @@
   
   /*Mobile Navbar*/
   /*Mobile-Navbar*/
-  .mobile-navbar,
+  .mobile_navbar,
   .overlay {
     display: none;
   }
@@ -93,19 +93,19 @@
       /* background: blue; */
     }
   
-    .mobile-navbar {
+    .mobile_navbar {
       display: block;
       width: 100%;
       height: 100%;
     }
   
-    #mobile-nav {
+    #mobile_nav {
       width: 100%;
       height: 100%;
       display: flex;
     }
   
-    .mobile-wrapper {
+    .mobile_wrapper {
       width: 100%;
       height: 100%;
       display: flex;
@@ -120,7 +120,7 @@
       display: none;
     }
   
-    .mobile-logo {
+    .mobile_logo {
       width: 50%;
       height: 100%;
       display: flex;
@@ -129,7 +129,7 @@
       z-index: -999;
     }
   
-    .mobile-menu {
+    .mobile_menu {
       width: 50%;
       height: 100%;
       display: flex;
@@ -138,19 +138,19 @@
       margin: 2rem;
     }
   
-    .mobile-menu i {
+    .mobile_menu i {
       font-size: 2.6rem;
       color: white;
     }
   
-    .mobile-menu .cancel {
+    .mobile_menu .cancel {
       display: none;
       font-size: 3rem;
       color: #8f0d8f;
       z-index: 100000;
     }
   
-    .mobile-logo img {
+    .mobile_logo img {
       width: 7.5rem;
       height: 7.5rem;
       margin: 0;
@@ -203,7 +203,7 @@
       animation-duration: 0.5s;
     }
   
-    .mobile-nav-ele {
+    .mobile_nav_ele {
       display: none;
       z-index: 1000000;
       width: 55vw;
@@ -214,7 +214,7 @@
       /* background: blue; */
     }
   
-    .mobile-nav-ele ul {
+    .mobile_nav_ele ul {
       width: 100%;
       height: 100%;
       /* z-index: 1000000; */
@@ -226,12 +226,12 @@
       gap: 40px;
     }
   
-    .mobile-nav-ele ul li {
+    .mobile_nav_ele ul li {
       font-size: 30px;
       color: black;
     }
   
-    .mobile-nav-ele a {
+    .mobile_nav_ele a {
       font-weight: 400;
       color: black;
     }
@@ -261,7 +261,7 @@
       text-align: center;
     }
   
-    .footer-container {
+    .footer_container {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -271,7 +271,7 @@
       height: 100%;
     }
   
-    .footer-wrapper {
+    .footer_wrapper {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -310,11 +310,11 @@
   }
   
   @media only screen and (max-width: 520px) {
-    .mobile-logo {
+    .mobile_logo {
       z-index: -10;
     }
   
-    .mobile-logo img {
+    .mobile_logo img {
       margin: 0;
       width: 4.5rem;
       height: 4.5rem;
@@ -336,7 +336,7 @@
       animation-duration: 0.5s;
     }
   
-    .mobile-nav-ele {
+    .mobile_nav_ele {
       display: none;
       z-index: 1000000;
       width: 70vw;
@@ -347,7 +347,7 @@
       /* background: blue; */
     }
   
-    .mobile-nav-ele ul {
+    .mobile_nav_ele ul {
       width: 100%;
       height: 100%;
       /* z-index: 1000000; */
@@ -359,18 +359,18 @@
       gap: 20px;
     }
   
-    .mobile-nav-ele ul li {
+    .mobile_nav_ele ul li {
       font-size: 30px;
       color: black;
     }
   
-    .mobile-nav-ele a {
+    .mobile_nav_ele a {
       font-weight: 400;
       color: black;
       font-size: 25px;
     }
   
-    .dates-detail {
+    .dates_detail {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -426,8 +426,8 @@
   
     .munintro h2,
     .vitmunintro h2,
-    .letter-wrappper .pic,
-    .text-letter {
+    .letter_wrappper .pic,
+    .text_letter {
       margin-top: 2.5rem;
     }
   }
@@ -827,21 +827,21 @@
     background-color: black;
   }
   
-  .bottom-text {
+  .bottom_text {
     color: white;
   }
   
-  .bottom-text a {
+  .bottom_text a {
     color: white;
     text-decoration: none;
   }
   
-  .bottom-text a:hover {
+  .bottom_text a:hover {
     color: #b976b2fa;
     text-decoration: none;
   }
   
-  .bottom-text p {
+  .bottom_text p {
     font-size: 15px;
     margin: 10px;
     font-family: "Poppins", sans-serif;
@@ -1002,7 +1002,7 @@
     display: block;
   }
   
-  .footer-container {
+  .footer_container {
     max-width: 1170px;
     margin: auto;
   }
@@ -1011,19 +1011,19 @@
     display: block;
   }
   
-  .footer-row {
+  .footer_row {
     display: flex;
     flex-wrap: wrap;
   }
   
-  .footer-col {
+  .footer_col {
     width: 50%;
     padding: 0 15px;
     margin-bottom: 150px;
     padding-left: 50px;
   }
   
-  .footer-col h4 {
+  .footer_col h4 {
     font-size: 18px;
     color: white;
     position: relative;
@@ -1039,7 +1039,7 @@
     font-weight: bold;
   }
   
-  .footer-col h4::before {
+  .footer_col h4::before {
     content: "";
     position: absolute;
     left: 0px;
@@ -1050,7 +1050,7 @@
     background-color: white;
   }
   
-  .footer-col p {
+  .footer_col p {
     color: white;
     font-size: 15px;
   }
